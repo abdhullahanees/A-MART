@@ -1,0 +1,418 @@
+*{
+  font-family: poppins;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
+
+a {
+    text-decoration: none;
+    color: #000000; 
+  }
+/*==Navigation=====================================*/
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  width: 100%;
+  background-color: #248335;
+  margin: auto;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000; 
+    
+}
+
+.menu li a {
+    display: block;
+    padding: 1px 25px;
+    background-color: #ffffff;
+    border-radius: 9px; 
+
+}
+.menu li a:hover {
+    background-color: #f00000;
+}
+
+.logo{
+font-size: 3.5rem;
+font-weight: 750;
+letter-spacing: 1px;
+color: #000000;
+text-shadow: 7px 7px 7px rgba(5, 7, 7, 7);
+padding-left: 110px;  
+}
+.logo spanw{
+  color:#4eb060
+  
+}
+spanr{
+  color: #fffffff3;
+  
+}
+.right-nav{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 25px;
+}
+.right-nav a{
+  width:40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+}   
+.right-nav .cart{
+  background-color: #ecf7ee;
+  color: #23ab3c;
+  margin-right: 30px;
+}
+.right-nav a span{
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width:20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.right-nav .cart span{
+  background-color: #4eb060;
+}
+.menu li a:hover,
+.menu .active{
+  color: #000000; 
+  transition: all ease 0.3s;
+}
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body {
+  font-family: poppins;
+  background-image: url(../IMG/bg3.webp);
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Move background image 60px to the left */
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+
+
+/*Order*/
+
+.order{
+  width: 100%;
+  height: 100vh;
+  padding: 90px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.order h1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align content to the right */
+  color: #000000;
+  font-size: 55px;
+  margin-right: 40px; /* Add margin to create space from the right */
+}
+
+.order h1 span{
+  color: #ff0b0b;
+  margin-right: 10px;
+  font-family: mv boli;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+
+.order h1 span1{
+  color: #000000;
+  margin-right: 10px;
+  font-size:20px;
+  margin-bottom: -18px;
+}
+
+.order h1 span2{
+  color:#4eb060;
+  margin-right: 0px;
+  font-size: 44px;
+  margin-bottom: -7px;
+  text-shadow: 7px 7px 7px rgba(5, 7, 7, 7);
+}
+
+.order h1 span3{
+  color: #ffffff;
+  margin-right: 100px;
+  font-size: 44px;
+  margin-bottom: -7px;
+  text-shadow: 7px 7px 7px rgba(5, 7, 7, 7);
+
+}
+
+
+.order h1 span::after{
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #20ec2d;
+  display: block;
+  position: relative;
+  bottom: 25px;
+}
+
+.order-container {
+  width: 90%;
+  max-width: 650px; /* Adjust as needed */
+  padding: 100px;
+  margin: 0 auto;
+  margin-right: 30px;
+  margin-top: -90px;
+  margin-bottom: 150px;
+}
+
+.order-container form {
+  padding: 80px;
+  background-color:#929292f1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-weight:10px ;
+  margin-top: -830px;
+  left: -110px;
+  transition: box-shadow 0.3s ease; /*   Adding transition for smooth effect */
+  &:hover {
+          box-shadow: 0 0 0px 05px rgb(0, 0, 0); /* Adjust values for desired glow effect */
+      }
+}
+
+.order-container .input {
+  margin-bottom: 20px;
+}
+
+.order-container label {
+  font-weight: bold;  
+  font-size: 20px;
+}
+
+.order-container input[type="number"],
+.order-container input[type="text"],
+.order-container select {
+  width: 100%;
+  padding: 4px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Hide the default radio button */
+.form-group input[type="radio"] {
+display: none;
+}
+
+/* Style the custom radio button as a box */
+.form-group input[type="radio"] + label {
+display: inline-block;
+cursor: pointer;
+padding: 07px;
+font-size: 20px;
+margin-top: 10px;
+border: 2px solid #000000;
+margin-left: 0px;
+margin-bottom: 10px;
+margin-top: 20px;
+transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+/* Hover effect */
+.form-group input[type="radio"] + label:hover {
+background-color: #ff0000;
+color: #fff;
+border-color: #54ab31; /* Change border color on hover */
+}
+
+/* Style the custom radio button when checked */
+.form-group input[type="radio"]:checked + label {
+background-color: #54ab31;
+color: #ffffff;
+}
+
+
+/* Style for the "Add to cart" button */
+
+.order-container .placeorder_btn{
+  display: block;
+  width: 100%;
+  padding: 07px;
+  font-size: 27px;
+  text-align: center;
+  background-color: #ff2020;
+  color: rgba(0, 0, 0, 0.896);
+  font-weight: bold;
+  border: 2px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 50px;
+}
+.order-container .placeorder_btn:hover {
+background-color: #21ab2f;
+}
+
+    /* Footer Styles */
+    footer{
+      background-color: #1f1e1b;
+      padding: 22px 20px;
+      border-top: 0px
+    }
+    .footer-container{
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+    .footer-logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer-logo a{
+      color: #ffffff;
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    .footer-logo a span{
+      color: #4eb060;
+    }
+    .footer-social{
+      display: flex;
+      margin-top: 10px;
+    }
+    .footer-social a{
+      width:40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      border: 1px solid #ffffff15;
+      font-size: 0.9rem;
+      margin: 0px 5px;
+      transition: all ease 0.3s;
+    }
+    .footer-social a:hover{
+      background-color: #4eb060;
+      transition: all ease 0.3s;
+    }
+    .footer-links strong{
+      color: #ffffff;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+    .footer-links ul{
+      margin-top: 10px;
+    }
+    .footer-links ul li a{
+      color: #ffffff;
+      opacity: 0.5;
+      margin: 4px 0px;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      transition: all ease 0.3s;
+    }
+    .footer-links li a:hover{
+      opacity: 1;
+      transition: all ease 0.3s;
+    }
+    @media screen and (max-width: 768px) {
+      /* Navigation */
+      .navigation {
+          flex-direction: column; 
+          align-items: center; 
+      }
+      
+      .menu {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: -20px;
+      }
+    
+      .menu li {
+          margin: 10px 0; 
+      }
+      
+      .logo {
+          padding-left: 0;
+          text-align: center;
+          margin-bottom: 20px;
+      }
+    
+      .right-nav {
+          margin-top: -49px; 
+          margin-left: -250px ;
+      }
+      .order h1 span,.order h1 span1,.order h1 span2, .order h1 span3, .order h1 span::after {
+        display: none; 
+      }
+      .order-container {
+        width: 120%;
+        margin-left: -90px;
+        padding-left: 160px;
+        padding-right: 10px;
+        margin-top: -110px;
+        margin-bottom: 20px;
+        
+      }
+      .order-container form {
+        padding: 10px;
+      } 
+        .order-container label {
+          font-weight: bold;  
+          font-size: 18px;
+        }
+      .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    }
+
+
+
+  
+
+
+
+
+
+
+

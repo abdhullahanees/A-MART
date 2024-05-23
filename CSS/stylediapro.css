@@ -1,0 +1,727 @@
+*{
+  font-family: poppins;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+a {
+      text-decoration: none;
+      color: #000000; 
+    }
+
+ body {
+      margin: 0;
+      padding: 0;
+      font-family: Poppins;
+      background-image: url(../IMG/white.avif);
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+    }
+/*==Search-Banner========================*/
+.search-banner-text{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: -20px;
+  margin-top: -250px; 
+  position: relative;
+
+}
+.search-banner-text h1{
+  font-size: 3.45rem;
+  line-height: 49px;
+  text-align: center;
+  color: #000000d9;
+  font-family:Cambria;
+  
+}
+.search-banner-text strong{
+  color: #4eb060;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 2px;
+}
+.search-box{
+  background-color: #ffffff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  padding: 10px 10px 0px 20px;
+  border-radius: 30px;
+}
+.search-box i{
+  font-size: 2.0rem;
+  color: #000000;
+  margin: 0px 10px;
+}
+.search-box .search-input{
+  height: 40px;
+  font-size: 1.1rem;
+  color: #000000;
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  outline: rgba(0, 0, 0, 0.766);
+}
+.search-box .search-btn{
+  width:220px;
+  height: 40px;
+  border-radius: 30px;
+  color: #000000;
+  background-color: #4eb060;
+  border: none;
+  color: #ffffff;
+  font-family: poppins;
+  outline: none;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  margin-top: -10px;
+}
+.search-box .search-btn:hover{
+  background-color: #58625a;
+  transition: all ease 0.3s;
+}
+/*==Navigation=====================================*/
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  width: 100%;
+  background-color: #248335;
+  margin: auto;
+}
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  
+  
+}
+
+.menu li a {
+  display: block;
+  padding: 1px 25px;
+  background-color: #ffffff;
+  border-radius: 9px; 
+}
+
+
+.menu li a:hover {
+  background-color: #f00000;
+}
+
+.logo{
+font-size: 3.5rem;
+font-weight: 750;
+letter-spacing: 1px;
+color: #000000;
+text-shadow: 7px 7px 7px rgba(5, 7, 7, 7);
+padding-left: 110px; 
+}
+.logo spanw{
+  color:#4eb060
+  
+}
+spanr{
+  color: #fffffff3;
+  
+}
+.right-nav{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 25px;
+}
+.right-nav a{
+  width:40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+}   
+.right-nav .cart{
+  background-color: #ecf7ee;
+  color: #23ab3c;
+  margin-right: 30px;
+}
+.right-nav a span{
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width:20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.right-nav .cart span{
+  background-color: #4eb060;
+}
+.menu li a:hover,
+.menu .active{
+  color: #000000; 
+  transition: all ease 0.3s;
+}
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+
+/*==Diary Products=====================================*/
+
+
+
+.container {
+  text-align: center;
+}
+.title-container {
+  text-align: center;
+  margin-top: 20px; /* Add some space below the title */
+  background-color: #6d6d6db5;
+  margin-left: 40px;
+  margin-right: 40px;
+  transition: background-color 0.8s ease; /* Add smooth transition effect */
+  padding: 05px;
+}
+
+
+
+.title-container h1 {
+  font-size: 40px; /* Adjust font size as needed */
+  color: #000000; /* Text color for the heading */
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.title-container p1 {
+  font-size: 25px; /* Adjust font size as needed */
+  color: #000000; /* Text color for the paragraph */
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+  margin-bottom: 40px; /* Add space between flexbox and buttons */
+  margin-top: 45px;
+  padding: 20px;
+}
+
+.dairy-product1 {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 54px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
+}
+.dairy-product2 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 54px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align content */
+}
+
+.dairy-product3 {
+  background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 54px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
+}
+
+.dairy-product4 {
+  background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 54px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
+}
+
+
+.dairy-product5 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 54px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align content */
+}
+
+.dairy-product6 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 54px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align content */
+}
+
+/* Style for image */
+.dairy-product1 img {
+  width: 200px; /* Adjust the width as needed */
+  height: auto ; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+.dairy-product2 img {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+.dairy-product3 img {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+.dairy-product4 img {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+.dairy-product5 img {
+  width: 170px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+.dairy-product6 img {
+  width: 180px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+/* Style for text */
+
+.dairy-product1 p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px; /* Add space between vegetable name and price */
+  font-weight: bold;
+}
+.dairy-product2 p {
+  font-size: 20px;
+  margin-top: 22px;
+  margin-bottom: 30px; /* Add space between vegetable name and price */
+  font-weight: bold;
+}
+.dairy-product3 p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 35px; /* Add space between vegetable name and price */
+  font-weight: bold;
+}
+.dairy-product4 p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 35px; /* Add space between vegetable name and price */
+  font-weight: bold;
+}
+.dairy-product5 p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 35px; /* Add space between vegetable name and price */
+  font-weight: bold;
+}
+.dairy-product6 p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px; /* Add space between vegetable name and price */
+  font-weight: bold;
+}
+
+/* Style for price */
+.dairy-product1 p.price {
+  font-weight: bold; /* Make price bold */
+  color: rgb(0, 0, 0); /* Change price color to blue */
+  margin-bottom: 60px;
+  margin-top: 24px;
+  font-size: 17px;
+}
+.dairy-product2 p.price {
+  font-weight: bold; /* Make price bold */
+  color: rgb(0, 0, 0); /* Change price color to blue */
+  font-size: 17px;
+  
+}
+.dairy-product3 p.price {
+  font-weight: bold; /* Make price bold */
+  color: rgb(0, 0, 0); /* Change price color to blue */
+  font-size: 17px;
+}
+.dairy-product4 p.price {
+  font-weight: bold; /* Make price bold */
+  color: rgb(0, 0, 0); /* Change price color to blue */
+  margin-top: 20px;
+  font-size: 17px;
+}
+.dairy-product5 p.price {
+  font-weight: bold; /* Make price bold */
+  color: rgb(0, 0, 0); /* Change price color to blue */
+  margin-top: 20px;
+  font-size: 17px;
+}
+.dairy-product6 p.price {
+  font-weight: bold; /* Make price bold */
+  color: rgb(0, 0, 0); /* Change price color to blue */
+  font-size: 17px;
+}
+
+/* Style for the order button */
+
+
+.dairy-product1 .order-button{
+  display: inline-block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+.dairy-product2 .order-button{
+  display: inline-block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+.dairy-product3 .order-button{
+  display: inline-block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+.dairy-product4 .order-button{
+  display: inline-block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+.dairy-product5 .order-button{
+  display: inline-block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+.dairy-product6 .order-button{
+  display: inline-block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+
+.order-button:hover {
+  background-color: #45a049;
+} 
+
+/* Style for the add to cart button */
+
+
+.dairy-product1 .Add_to_cart_btn{
+  display: block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: -20px;
+}
+.dairy-product2 .Add_to_cart_btn{
+  display: block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 40px;
+}
+
+.dairy-product3 .Add_to_cart_btn{
+  display:block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 17px;
+}
+
+.dairy-product4 .Add_to_cart_btn{
+  display: block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.dairy-product5 .Add_to_cart_btn{
+  display: block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: -5px;
+}
+
+.dairy-product6 .Add_to_cart_btn{
+  display: block;
+  background-color: #ff0707;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+
+.Add_to_cart_btn:hover {
+  background-color: #000000;
+} 
+
+
+
+/* hover effect */
+.dairy-product1,
+.dairy-product2,
+.dairy-product3,
+.dairy-product4,
+.dairy-product5,
+.dairy-product6 {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 54px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
+    transition: transform 0.6s, box-shadow 0.6s; /* Smooth transition for transform and box-shadow */
+}
+
+/* hover effect */
+.dairy-product1:hover,
+.dairy-product2:hover,
+.dairy-product3:hover,
+.dairy-product4:hover,
+.dairy-product5:hover,
+.dairy-product6:hover {
+    transform: scale(1.1); /* Scale up the element on hover */
+    box-shadow: 0 05px 05px rgba(0, 0, 0, 0.66); /* Change box-shadow on hover */
+}
+
+
+/* Footer Styles */
+footer{
+  background-color: #1f1e1b;
+  padding: 22px 20px;
+  border-top:0px 
+}
+.footer-container{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo a{
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.footer-logo a span{
+  color: #4eb060;
+}
+.footer-social{
+  display: flex;
+  margin-top: 10px;
+}
+.footer-social a{
+  width:40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border: 1px solid #ffffff15;
+  font-size: 0.9rem;
+  margin: 0px 5px;
+  transition: all ease 0.3s;
+}
+.footer-social a:hover{
+  background-color: #4eb060;
+  transition: all ease 0.3s;
+}
+.footer-links strong{
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.footer-links ul{
+  margin-top: 10px;
+}
+.footer-links ul li a{
+  color: #ffffff;
+  opacity: 0.5;
+  margin: 4px 0px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: all ease 0.3s;
+}
+.footer-links li a:hover{
+  opacity: 1;
+  transition: all ease 0.3s;
+}
+@media screen and (max-width: 768px) {
+  /* Navigation */
+  .navigation {
+      flex-direction: column; 
+      align-items: center; 
+  }
+  
+  .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -20px;
+  }
+
+  .menu li {
+      margin: 10px 0; 
+  }
+  
+  .logo {
+      padding-left: 0;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .right-nav {
+      margin-top: -49px; 
+      margin-left: -250px ;
+  }
+
+  /*==Dairy Products=====================================*/
+  .title-container {
+    margin-left: 10px; /* Adjust margin for mobile */
+    margin-right: 10px; /* Adjust margin for mobile */
+  }
+
+  .flexbox {
+    flex-direction: column; /* Stack dairy products vertically */
+    align-items: center; /* Center align dairy products */
+    margin-top: 20px;
+  }
+
+  .dairy-product1,
+  .dairy-product2,
+  .dairy-product3,
+  .dairy-product4,
+  .dairy-product5,
+  .dairy-product6 {
+    width: 90%; /* Full width for mobile */
+  }
+
+  .dairy-product1,
+  .dairy-product2,
+  .dairy-product3,
+  .dairy-product4,
+  .dairy-product5,
+  .dairy-product6 {
+    margin-bottom: 20px; /* Add space between items for mobile */
+  }
+
+  .dairy-product1 p,
+  .dairy-product2 p,
+  .dairy-product3 p,
+  .dairy-product4 p,
+  .dairy-product5 p,
+  .dairy-product6 p,
+  .dairy-product1 p.price,
+  .dairy-product2 p.price,
+  .dairy-product3 p.price,
+  .dairy-product4 p.price,
+  .dairy-product5 p.price,
+  .dairy-product6 p.price,
+  .dairy-product1 .order-button,
+  .dairy-product2 .order-button,
+  .dairy-product3 .order-button,
+  .dairy-product4 .order-button,
+  .dairy-product5 .order-button,
+  .dairy-product6 .order-button,
+  .dairy-product1 .Add_to_cart_btn,
+  .dairy-product2 .Add_to_cart_btn,
+  .dairy-product3 .Add_to_cart_btn,
+  .dairy-product4 .Add_to_cart_btn,
+  .dairy-product5 .Add_to_cart_btn,
+  .dairy-product6 .Add_to_cart_btn {
+    font-size: 14px; /* Adjust font size for mobile */
+    padding: 8px 15px; /* Adjust padding for mobile */
+    margin-top: 10px; /* Adjust margin for mobile */
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+}
+
